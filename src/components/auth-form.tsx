@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { useForm } from "react-hook-form";
+import { useForm, FieldValues } from "react-hook-form";
 import { motion, AnimatePresence } from "framer-motion";
 import { Loader2, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,7 +30,7 @@ export function AuthForm() {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const onSubmit = async (data: any) => {
+    const onSubmit = async (data: FieldValues) => {
         setIsLoading(true);
         // Simulate API call
         setTimeout(() => {

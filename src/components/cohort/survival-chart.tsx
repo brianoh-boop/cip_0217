@@ -32,6 +32,7 @@ export function SurvivalChart() {
                         />
                         <Tooltip
                             contentStyle={{ borderRadius: "8px", border: "1px solid #e2e8f0" }}
+                            // eslint-disable-next-line @typescript-eslint/no-explicit-any
                             formatter={(value: any) => [Number(value).toFixed(2), "Survival Probability"]}
                         />
                         <Legend verticalAlign="top" height={36} />

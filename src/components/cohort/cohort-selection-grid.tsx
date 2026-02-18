@@ -9,7 +9,7 @@ interface CohortCardProps {
     source: string;
     count: string;
     description: string;
-    icon: any;
+    icon: React.ElementType;
     isActive?: boolean;
     isVerified?: boolean;
     onClick: () => void;

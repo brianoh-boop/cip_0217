@@ -73,7 +73,7 @@ export function ActivityCenter() {
                     </div>
                     <div className="relative">
                         <div className="absolute -left-[21px] top-1 w-2.5 h-2.5 rounded-full bg-slate-300 border-2 border-white" />
-                        <p className="text-xs font-medium text-slate-800">Modified Filter: 'EGFR Positive'</p>
+                        <p className="text-xs font-medium text-slate-800">Modified Filter: &apos;EGFR Positive&apos;</p>
                         <p className="text-[10px] text-slate-400 mt-0.5">Yesterday</p>
                     </div>
                     <div className="relative">

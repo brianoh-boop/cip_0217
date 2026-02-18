@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 
 type Stage = "Integrity" | "Alignment" | "Variant Calling" | "Security Cleanup";
 
-const STAGES: { id: Stage; label: string; icon: any }[] = [
+const STAGES: { id: Stage; label: string; icon: React.ElementType }[] = [
     { id: "Integrity", label: "Integrity Check", icon: FileText },
     { id: "Alignment", label: "Alignment (BWA)", icon: Activity },
     { id: "Variant Calling", label: "Variant Calling (GATK)", icon: Database },
